@@ -13,11 +13,12 @@ window.addEventListener("load", () => {
 });
 const modalNone = () => (modal.style.display = "none");
 subscribe.addEventListener("click", () => {
-  if (email.value && email.value.trim) {
-    modalNone;
-  } else {
-    window.alert("The email is empty!");
-  }
+  // if (email.value && email.value.trim) {
+  //   modalNone;
+  // } else {
+  //   window.alert("The email is empty!");
+  // }
+  modalNone();
 });
 cancel.addEventListener("click", modalNone);
 
