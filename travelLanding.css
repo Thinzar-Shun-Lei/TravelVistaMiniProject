@@ -277,7 +277,7 @@ nav {
   } */
   }
 }
-@media (max-width: 428px) {
+@media (max-width: 412px) {
   .homePara {
     margin-left: 60px;
     margin-bottom: 35px;
@@ -367,6 +367,12 @@ nav {
     left: 35px;
     z-index: 100px;
     display: none;
+  }
+  .overflowHid {
+    overflow: hidden;
+  }
+  .blogCardGroup {
+    overflow: hidden;
   }
   /* .heroHead {
     position: fixed;
