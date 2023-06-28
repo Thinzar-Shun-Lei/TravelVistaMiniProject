@@ -1,0 +1,377 @@
+* {
+  box-sizing: border-box;
+  font-family: "Advent Pro", sans-serif;
+}
+body {
+  min-height: 3000px;
+}
+nav {
+  font-family: "Advent Pro", sans-serif;
+  z-index: 10;
+}
+.logo {
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-size: 25px;
+}
+.bgHero {
+  position: relative;
+  min-height: 500px;
+}
+.videobg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -100;
+  filter: blur(3px);
+}
+.li:hover a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.heroSText {
+  font-size: 24px;
+}
+.heroText {
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+.heroBtnText {
+  font-size: 18px;
+}
+.heroBtn:hover {
+  border-color: #8bc34a !important;
+}
+/* .heroHead {
+  position: fixed;
+  left: 550px;
+} */
+/* .heroContainer {
+  min-height: 500px;
+} */
+/* .heroHead {
+  z-index: -80 !important;
+} */
+
+/* Top Places Section */
+.imgCard {
+  height: 200px;
+  width: 100px;
+}
+.card-btn {
+  background-color: #8bc34a !important;
+}
+.paraText {
+  font-size: 17px;
+}
+.cardHFont {
+  font-size: 22px;
+}
+.btnExplore {
+  background-color: #8bc34a !important;
+}
+.btnExplore a {
+  font-size: 18px;
+}
+.btnExplore:hover {
+  background-color: #263238 !important;
+  color: white;
+}
+.btnMore:hover {
+  background-color: #263238 !important;
+  color: white;
+}
+.topPCard:hover {
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+/* Home */
+.homeImg {
+  width: 100%;
+  height: 100%;
+  border: transparent;
+  border-radius: 20%;
+}
+.homeImgVertical {
+  width: 100%;
+  height: 100%;
+  border: transparent;
+  border-radius: 10%;
+}
+.topPCard {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+}
+/* Contact */
+.contactImg {
+  width: 550px;
+  height: 550px;
+}
+.contactImg:hover .contactImg {
+  transform: rotate(45deg);
+  transition: 0.5s;
+}
+.contactForm {
+  background-color: rgba(139, 195, 74, 0.7);
+  border: transparent;
+  border-radius: 25px;
+}
+.formLabel {
+  font-size: 18px;
+  font-weight: 500;
+}
+.paperPlane {
+  width: 50px;
+  height: 50px;
+  transform: translateY(85px) translateX(-190px);
+}
+.divSubmit:hover .paperPlane {
+  transform: translateY(20px) translateX(-140px);
+  transition: 0.5s;
+}
+.mapPic {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  right: 6.6rem;
+  transform: translateY(-66px) rotate(45deg) !important;
+}
+.penPic {
+  width: 39px;
+  height: 39px;
+}
+.btnSubmit {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}
+/* Blogs */
+.blogCard {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+.blogCardImg {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  transform: translateX(-12px);
+}
+.blogCardBody {
+  transform: translateX(-18px);
+}
+.blogTitle {
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+.authors img {
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+.authors img:first-child {
+  margin-left: 10px;
+}
+.searchGp {
+  width: 400px !important;
+}
+.searchBtn:hover {
+  background-color: #263238;
+  color: white;
+}
+.blogArrow:hover {
+  background-color: #263238;
+  color: white;
+}
+.blogArrow2 {
+  margin-right: -100px;
+}
+/* Reviews */
+.reviewCard {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+}
+.reviewCard:hover {
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.reviewCardImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.reviewCardIcon i {
+  color: #8bc34a;
+  font-weight: bold;
+}
+.btnUpArrow {
+  background-color: #8bc34a !important;
+  margin: 20px;
+}
+.btnUpArrow:hover {
+  background-color: #263238 !important;
+}
+.iconArrow {
+  color: white;
+  font-weight: bold;
+}
+/* Footer */
+.footer {
+  background-color: rgba(23, 32, 42, 0.3);
+  height: 100%;
+}
+.footer p {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+/* modal */
+.modalDiv {
+  background-color: rgba(255, 255, 255, 0.954);
+  border: 1px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(23, 32, 42, 0.2);
+  position: fixed;
+  top: 50px;
+  left: 520px;
+  z-index: 100;
+  display: none;
+}
+
+/* Responsive*/
+@media (min-width: 990px) {
+  .reviewCTitle {
+    font-size: 16px;
+  }
+  .reviewCSubTitle {
+    font-size: 12px;
+  }
+  .reviewCText {
+    font-size: 14px;
+  }
+}
+@media (max-width: 990px) {
+  .authors img {
+    margin-left: -30px;
+  }
+  .searchGp {
+    width: 300px !important;
+  }
+  .blogArrow2 {
+    margin-right: -50px;
+  }
+  .homeImgContainer {
+    margin-left: 75px;
+  }
+  .modalDiv {
+    top: 70px;
+    left: 218px;
+    z-index: 100px;
+    display: none;
+    /* }
+  .heroHead {
+    position: fixed;
+    top: 200px;
+    left: 280px;
+    z-index: -20;
+  } */
+  }
+}
+@media (max-width: 428px) {
+  .homePara {
+    margin-left: 60px;
+    margin-bottom: 35px;
+  }
+  .homeImgSubContainer {
+    width: 300px;
+  }
+  .homeImgVSubContainer {
+    width: 260px;
+  }
+  .homeImg {
+    margin-left: -20px;
+  }
+  .homeImgVertical {
+    /* margin-left: -40px; */
+    margin-top: 40px;
+    height: 400px;
+    transform: translateX(-33px);
+  }
+  .topPCard {
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-bottom: 26px;
+  }
+  .contactImg {
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+  }
+  .contactForm {
+    width: 330px;
+  }
+  .contactFormContainer {
+    margin-left: 17px;
+  }
+  .penPic {
+    margin-top: -7px;
+  }
+  .authorImg {
+    display: none;
+  }
+  .authorImgGrp {
+    display: inline;
+  }
+  .author {
+    padding: 20px;
+  }
+  .authorContainer {
+    text-align: center;
+  }
+  .searchGp {
+    width: 300px !important;
+    margin-right: 46px;
+    margin-top: 10px;
+  }
+  .blogMainCard {
+    width: 320px;
+    transform: translateX(-50px);
+  }
+  .blogCardGrp {
+    width: 330px;
+  }
+  .blogCardImg {
+    width: 319px !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  .blogCard {
+    margin-bottom: 20px;
+  }
+  .reviewCard {
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+  .blogArrow {
+    display: inline-flex;
+  }
+  .blogArrow2 {
+    margin-left: 500px;
+    transform: translateY(-35px);
+    /* margin-top: -1000px; */
+  }
+  .modalDiv {
+    position: fixed;
+    width: 340px;
+    top: 70px;
+    left: 35px;
+    z-index: 100px;
+    display: none;
+  }
+  /* .heroHead {
+    position: fixed;
+    top: 200px;
+    left: 80px;
+    z-index: -20;
+  } */
+}
